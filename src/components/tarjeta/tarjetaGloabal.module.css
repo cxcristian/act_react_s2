@@ -1,0 +1,142 @@
+.tarjeta{
+  margin: 20px;
+  background-color: rgb(0, 128, 111);
+  
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 10px 18px rgb(185, 184, 184);
+  transition: all 0.3s ease-in-out;
+}
+.tarjeta:hover{
+  box-shadow: 0 10px 18px rgb(0, 0, 0);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.encabezado{
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color    : rgb(65, 7, 226);
+    padding: 10px;
+}
+
+.descripcion{
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(64, 90, 64, 0.651);
+    padding: 10px;
+}
+.categoria{
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(1, 241, 1, 0.651);
+    padding: 10px;
+}
+.categoria:hover{
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+/*Variaciones de tarjeta*/
+.tarjetaPrimaria{
+    background-color: rgb(50, 62, 73);
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 10px 18px rgb(185, 184, 184);
+}
+.tarjetaPrimaria {
+    text-align: center;
+}
+.encabezadoPrimaria{
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color    : rgb(127, 141, 140);
+    padding: 10px;
+    color: white;
+}
+.descripcionPrimaria{
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(211, 218, 211, 0.651);
+    padding: 10px;
+    color: white;
+}
+.categoriaPrimaria{
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.651);
+    padding: 10px;
+    color: white;
+}
+/* 🎴 Tarjeta Secundaria */
+.tarjetaSecundaria{
+    background-color: rgb(70, 50, 90);
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 10px 18px rgb(185, 184, 184);
+    text-align: center;
+}
+.encabezadoSecundaria{
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(150, 100, 180);
+    padding: 10px;
+    color: white;
+}
+.descripcionSecundaria{
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(200, 180, 220, 0.7);
+    padding: 10px;
+    color: white;
+}
+.categoriaSecundaria{
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(50, 20, 70, 0.7);
+    padding: 10px;
+    color: white;
+}
+
+/* 🎴 Tarjeta Éxito */
+.tarjetaExito{
+    background-color: rgb(238, 255, 0);
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 10px 18px rgb(185, 184, 184);
+    text-align: center;
+}
+.encabezadoExito{
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
+}
+.descripcionExito{
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(210, 212, 211);
+    padding: 10px;
+    color: white;
+}
+.categoriaExito{
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+}
